@@ -1,0 +1,366 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+  }  
+.header{
+    background-color: rgb(7, 51, 7);
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    gap: 53px;
+}
+.navbar{
+    display: flex;
+    gap: 53px;   
+    padding-top: 30px; 
+}
+.header a{ 
+    font-size: 27px;
+    color:white;
+    justify-content: center;
+    text-decoration: none;
+    text-decoration: solid;
+    text-transform: uppercase;  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-right: 10px;   
+}
+.header a:hover{
+    text-decoration: none;
+    color: rgb(243, 243, 52);
+}
+.content h1{
+    align-items: center;
+    color: green;
+    margin-left: 500px;
+}
+.content h2{
+    align-items: center;
+    color: green;
+    margin-left: 400px;
+    font-weight:900;
+}
+.input input{
+    font-size: 15px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.input{
+    margin-left:15%;
+}
+.input button{
+    font-size: 15px;
+    padding: 8px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(49, 159, 49);
+}
+button{
+    font-size: 205px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    background-color: rgb(49, 159, 49);
+}
+button:hover{
+    background-color: #e3bb88;
+    color: white;
+}
+.box2{
+    text-align: left;
+    background-color: aliceblue;
+
+}
+.box3{
+    box-sizing: border-box;
+    border-color: #eda03b;
+}
+.para{
+    font-size: 25px;
+    color: white;
+   text-align: left;
+   border-radius: 40px 0px 40px 0px;
+   padding: 2%;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 700;
+}
+.para:hover{
+    color:rgb(70, 194, 194);
+
+}
+.wrap {
+    width: 100%;
+    height: 500px;
+    display: block;
+    animation:slide 10s infinite;  
+  }
+.item img{
+    width: 100%;
+  }
+ img{
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 5px;
+  } 
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+.BMI{
+    background-color: #084e49;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+.BMI h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+  }
+.bmi{
+    color: white;
+    display: flex;
+  }
+ .he1{
+    font-weight: 1000;
+    text-shadow: #584020 5px ;
+  }
+.bmi img{
+    height: 450px;
+    width: 450px;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+.bmi .bmi_1 label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 50%;
+  }
+ .bmi .bmi_1 input{
+    padding: 10px;
+    border-radius: 5px;
+    padding-right: 180px;
+  }
+.bmi #btn{
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+.bmi .bmi_1{
+      margin-top: 5%;
+      margin-left: 20%;
+}
+.input{
+    margin-top: 22%;
+    padding-left:5%;
+}
+.formm h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.formm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blur(8px);
+}
+form{
+    font-size: 20px;
+    color: black;
+}
+.inputbox input{
+    padding: 2%;
+    padding-left: 180px;
+}
+.inputbox label{
+   box-sizing: border-box;
+
+}
+.Register a{
+    box-sizing: border-box;
+    background-color: brown;
+    color: white;
+    font-size:0.4cm;
+    padding: 2%;
+    border-radius:0.2cm;
+    text-decoration: none;
+} 
+.a{
+    box-sizing: border-box;
+    background-color:rgb(20, 35, 4);
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 10px;
+}
+.para1{
+    background-color: #88c6ce;
+}
+.para1 p{
+    justify-content: flex-start;
+    margin-bottom: 50%;
+}
+img{
+    width: 500px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family:cursive;
+    color: #584020;
+    font-weight: bold;
+}
+.btn{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: mediumseagreen;
+    color: white;
+    font-weight: bold;
+} .foot{
+    display: flex;
+    padding-left: 40px;
+  }
+
+  .f_about{
+    padding-right: 150px;
+  }
+  .links{
+    padding-right: 150px;
+  }
+.parent_img{
+    display: flex;
+}
+
+.child_img{
+    padding: 2px;
+}
+.sign{
+  margin-top: 30px;
+}
+
+.port_header{
+  background-color: #084e49;
+}
+
+.port_sub_header a{
+  color: white;
+  padding: 40px;
+  font-size: 20px;
+}
+
+.footer{
+  color: white;
+  background-color:#084e49;
+  display: flex;
+  padding: 30px;
+}
+.port_mid img{
+  width: 100%;
+  height:600px;
+  filter: blur(4px);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  padding: 10px 20px; 
+  font-size: 20px; 
+
+}
+
+.sub_about{
+  display: flex;
+}
+
+.about  h1{
+  font-size: 35px;
+  text-align: center;
+  background-color:#084e49;
+  color: white;
+}
+
+.sub_about p{
+  font-size: 20px;
+  padding-left: 150px;
+  margin-top: 30px;
+}
+.skills{
+  font-size: 20px;
+  padding: 30px;
+  margin-left: 120px;
+}
+.resume  h1{
+  font-size: 35px;
+  text-align: center;
+  background-color:#084e49;
+  color: white;
+}
+
+.sub_resume{
+  display: flex;
+}
+.sub_resume1{
+  padding: 50px;
+}
+.sub_resume2{
+  padding-left: 100px;
+}
+
+.sub_resume2 h3{
+  text-decoration: underline;
+}
+
+.sub_resume2 p{
+font-size: 16px;
+}
+
+
+.sub_resume2 h5{
+  font-size: 20px;
+  }
+
+  .head_footer{
+    background-color:#084e49;
+
+  }
+
+  footer{
+    padding: 0.8%;
+    background-color: rgb(7, 51, 7);
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+  .foot1 p{
+    margin-right: 50px;
+  }
+
+  .foot3{
+    margin-left: 100px;
+  }
+
+  .foot3 i{
+    background-color: wheat;
+    padding: 5px;
+    border-radius: 50px;
+  }
